@@ -62,8 +62,8 @@ export default class App extends Component {
     return (
       <>
         <h2>ToDo List:</h2>
-        <Input value={todoText} onChange={this.onChangeInput} />
-        <Button onClick={this.onSubmitTodo}>Submit</Button>
+        {/* <Input value={todoText} onChange={this.onChangeInput} />
+        <Button onClick={this.onSubmitTodo}>Submit</Button> */}
         <List
           list={todos}
           onChangeBox={this.onChangeBox}
